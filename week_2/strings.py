@@ -1,57 +1,31 @@
-# strings in python
-# Date : 22/02/2024
-# Name : Edith
-
-city = "nairobi"
-
-print(city[0]) # n
-print(city[1]) # a
-print(city[2]) # i
-print(city[3]) # r
-print(city[4]) # o
-print(city[-1]) # b
-print(city[-2]) # i
-
-# convert to uppercase 
 
 
-print(city)
-print("\ n") # prints a new line
-print (city.upper())
-
-name = "EDITH NJERI"
-print(name)
-print(name.lower()) # converts string to lower case
-
-town = "   Naivasha   "
-
-print(town)
-print("\ t") #  new tab
-print(town.strip())
-
-
-# add two strings
  
-f_name = "Grace"
-s_name = "Muhia"
+# printing a string
+activity = "dancing"
+print("My hobby is %s" %(activity))
 
-full_name = f_name + s_name
-print(full_name)
+# printing a float
+height = 1.2334909
+print("My height is %5.3f"%(height))
 
-# replacing a character 
+# printing an integer
+age = 32
+print("My age is %d"%(height))
 
-fruit = Orange
-print( fruit.replace("O" , "Y"))
+# printing C
+name= "Edith Njeri"
+print(len(name))
+print( f"My full name is {name} ")
 
-subject = "Physical,Sciences"
-
-print(subject.split(":"))
-
-age= 18
-height= 1.4
+school = "Engineering"
+course= "Electrical"
+print( "I am studying {course} in the school of {school}" .format( course ="Medicine", school ="Human Sciences"))
 
 
-print(" I am {} years old  and {} meters tall " , format(age/height))
+
+
+
 
 
 

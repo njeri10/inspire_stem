@@ -20,6 +20,8 @@ def print_pascals_triangle(triangle):
 
 rows = 5
 triangle = generate_pascals_triangle(rows)
+
+
 print_pascals_triangle(triangle)
 
 

@@ -15,5 +15,13 @@ for number in range(0,10) :
         print(str(x**2) + "/t" ,end= " ") # squares
         
     
-        
+   #write code to print my name five times
+           
+
+for name in range(0,6) :
+    print ( "/t")
+    print(" Edith Njeri")
+
+
+
 
