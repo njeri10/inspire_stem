@@ -4,6 +4,12 @@
 
 
 car = { "brand":"Ford","model": "Mustang", "year": "2020"} 
+print (car["brand"])
+print (car["model"])
+print (car["year"])
+
+
+
 
 ford_car = car.copy
 print(car)
